@@ -32,13 +32,13 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task1.V1
             this.groupBoxCondition_SAS = new System.Windows.Forms.GroupBox();
             this.textBoxCondition_SAS = new System.Windows.Forms.TextBox();
             this.groupBoxInPut_SAS = new System.Windows.Forms.GroupBox();
-            this.labelStartValue_SAS = new System.Windows.Forms.Label();
-            this.labelStopValue_SAS = new System.Windows.Forms.Label();
-            this.textBoxStartValue_SAS = new System.Windows.Forms.TextBox();
             this.textBoxStopValue_SAS = new System.Windows.Forms.TextBox();
+            this.textBoxStartValue_SAS = new System.Windows.Forms.TextBox();
+            this.labelStopValue_SAS = new System.Windows.Forms.Label();
+            this.labelStartValue_SAS = new System.Windows.Forms.Label();
             this.groupBoxOutPut_SAS = new System.Windows.Forms.GroupBox();
-            this.labelResult_SAS = new System.Windows.Forms.Label();
             this.textBoxResult_SAS = new System.Windows.Forms.TextBox();
+            this.labelResult_SAS = new System.Windows.Forms.Label();
             this.buttonInfo_SAS = new System.Windows.Forms.Button();
             this.buttonDone_SAS = new System.Windows.Forms.Button();
             this.groupBoxCondition_SAS.SuspendLayout();
@@ -80,14 +80,19 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task1.V1
             this.groupBoxInPut_SAS.TabStop = false;
             this.groupBoxInPut_SAS.Text = "Ввод данных";
             // 
-            // labelStartValue_SAS
+            // textBoxStopValue_SAS
             // 
-            this.labelStartValue_SAS.AutoSize = true;
-            this.labelStartValue_SAS.Location = new System.Drawing.Point(7, 22);
-            this.labelStartValue_SAS.Name = "labelStartValue_SAS";
-            this.labelStartValue_SAS.Size = new System.Drawing.Size(87, 17);
-            this.labelStartValue_SAS.TabIndex = 0;
-            this.labelStartValue_SAS.Text = "Старт шага:";
+            this.textBoxStopValue_SAS.Location = new System.Drawing.Point(211, 42);
+            this.textBoxStopValue_SAS.Name = "textBoxStopValue_SAS";
+            this.textBoxStopValue_SAS.Size = new System.Drawing.Size(165, 22);
+            this.textBoxStopValue_SAS.TabIndex = 3;
+            // 
+            // textBoxStartValue_SAS
+            // 
+            this.textBoxStartValue_SAS.Location = new System.Drawing.Point(10, 42);
+            this.textBoxStartValue_SAS.Name = "textBoxStartValue_SAS";
+            this.textBoxStartValue_SAS.Size = new System.Drawing.Size(165, 22);
+            this.textBoxStartValue_SAS.TabIndex = 2;
             // 
             // labelStopValue_SAS
             // 
@@ -98,19 +103,14 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task1.V1
             this.labelStopValue_SAS.TabIndex = 1;
             this.labelStopValue_SAS.Text = "Конец шага:";
             // 
-            // textBoxStartValue_SAS
+            // labelStartValue_SAS
             // 
-            this.textBoxStartValue_SAS.Location = new System.Drawing.Point(10, 42);
-            this.textBoxStartValue_SAS.Name = "textBoxStartValue_SAS";
-            this.textBoxStartValue_SAS.Size = new System.Drawing.Size(165, 22);
-            this.textBoxStartValue_SAS.TabIndex = 2;
-            // 
-            // textBoxStopValue_SAS
-            // 
-            this.textBoxStopValue_SAS.Location = new System.Drawing.Point(211, 42);
-            this.textBoxStopValue_SAS.Name = "textBoxStopValue_SAS";
-            this.textBoxStopValue_SAS.Size = new System.Drawing.Size(165, 22);
-            this.textBoxStopValue_SAS.TabIndex = 3;
+            this.labelStartValue_SAS.AutoSize = true;
+            this.labelStartValue_SAS.Location = new System.Drawing.Point(7, 22);
+            this.labelStartValue_SAS.Name = "labelStartValue_SAS";
+            this.labelStartValue_SAS.Size = new System.Drawing.Size(87, 17);
+            this.labelStartValue_SAS.TabIndex = 0;
+            this.labelStartValue_SAS.Text = "Старт шага:";
             // 
             // groupBoxOutPut_SAS
             // 
@@ -123,15 +123,6 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task1.V1
             this.groupBoxOutPut_SAS.TabStop = false;
             this.groupBoxOutPut_SAS.Text = "Вывод данных";
             // 
-            // labelResult_SAS
-            // 
-            this.labelResult_SAS.AutoSize = true;
-            this.labelResult_SAS.Location = new System.Drawing.Point(6, 18);
-            this.labelResult_SAS.Name = "labelResult_SAS";
-            this.labelResult_SAS.Size = new System.Drawing.Size(80, 17);
-            this.labelResult_SAS.TabIndex = 1;
-            this.labelResult_SAS.Text = "Результат:";
-            // 
             // textBoxResult_SAS
             // 
             this.textBoxResult_SAS.Font = new System.Drawing.Font("Consolas", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -142,6 +133,15 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task1.V1
             this.textBoxResult_SAS.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBoxResult_SAS.Size = new System.Drawing.Size(301, 311);
             this.textBoxResult_SAS.TabIndex = 2;
+            // 
+            // labelResult_SAS
+            // 
+            this.labelResult_SAS.AutoSize = true;
+            this.labelResult_SAS.Location = new System.Drawing.Point(6, 18);
+            this.labelResult_SAS.Name = "labelResult_SAS";
+            this.labelResult_SAS.Size = new System.Drawing.Size(80, 17);
+            this.labelResult_SAS.TabIndex = 1;
+            this.labelResult_SAS.Text = "Результат:";
             // 
             // buttonInfo_SAS
             // 
@@ -175,6 +175,7 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task1.V1
             this.Controls.Add(this.groupBoxOutPut_SAS);
             this.Controls.Add(this.groupBoxInPut_SAS);
             this.Controls.Add(this.groupBoxCondition_SAS);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

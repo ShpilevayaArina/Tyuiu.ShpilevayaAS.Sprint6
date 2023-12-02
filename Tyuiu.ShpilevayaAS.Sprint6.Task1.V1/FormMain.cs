@@ -47,7 +47,6 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task1.V1
                 }
 
                 textBoxResult_SAS.AppendText("+----------+-----------+" + Environment.NewLine);
-
             }
             catch
             {

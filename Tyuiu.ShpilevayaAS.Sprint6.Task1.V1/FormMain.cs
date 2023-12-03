@@ -56,7 +56,7 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task1.V1
 
         private void buttonInfo_SAS_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 0 выполнила студентка группы ИИПб-23-1 Шпилевая Арина Станиславовна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Таск 1 выполнила студентка группы ИИПб-23-1 Шпилевая Арина Станиславовна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

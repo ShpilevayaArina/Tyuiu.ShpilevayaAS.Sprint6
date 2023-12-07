@@ -20,6 +20,18 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task4.V7
         }
 
         DataService ds = new DataService();
+        //private void buttonDone_SAS_Click(object sender, EventArgs e)
+        //{
+        //}
+
+        //private void buttonInfo_SAS_Click(object sender, EventArgs e)
+        //{ 
+        //}
+
+        //private void buttonSave_SAS_Click(object sender, EventArgs e)
+        //{
+        //}
+
         private void buttonDone_SAS_Click(object sender, EventArgs e)
         {
             try
@@ -51,12 +63,6 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task4.V7
             {
                 MessageBox.Show("Введены неверные данные", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-        }
-
-        private void buttonInfo_SAS_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Таск 4 выполнила студентка группы ИИПб-23-1 Шпилевая Арина Станиславовна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void buttonSave_SAS_Click(object sender, EventArgs e)
@@ -80,6 +86,11 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task4.V7
             {
                 MessageBox.Show("Сбой при сохранении файла", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void buttonInfo_SAS_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Таск 4 выполнила студентка группы ИИПб-23-1 Шпилевая Арина Станиславовна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         //private void button2_Click(object sender, EventArgs e)

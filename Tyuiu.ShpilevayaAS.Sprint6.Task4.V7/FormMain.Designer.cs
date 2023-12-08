@@ -102,13 +102,13 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task4.V7
             this.buttonInfo_SAS.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonInfo_SAS.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.buttonInfo_SAS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonInfo_SAS.Location = new System.Drawing.Point(1076, 19);
+            this.buttonInfo_SAS.Location = new System.Drawing.Point(1086, 19);
             this.buttonInfo_SAS.Name = "buttonInfo_SAS";
             this.buttonInfo_SAS.Size = new System.Drawing.Size(102, 80);
             this.buttonInfo_SAS.TabIndex = 7;
             this.buttonInfo_SAS.Text = "Справка";
             this.buttonInfo_SAS.UseVisualStyleBackColor = false;
-           this.buttonInfo_SAS.Click += new System.EventHandler(this.buttonInfo_SAS_Click);
+            this.buttonInfo_SAS.Click += new System.EventHandler(this.buttonInfo_SAS_Click);
             // 
             // buttonSave_SAS
             // 
@@ -119,7 +119,7 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task4.V7
             this.buttonSave_SAS.TabIndex = 8;
             this.buttonSave_SAS.Text = "Сохранить";
             this.buttonSave_SAS.UseVisualStyleBackColor = false;
-           this.buttonSave_SAS.Click += new System.EventHandler(this.buttonSave_SAS_Click);
+            this.buttonSave_SAS.Click += new System.EventHandler(this.buttonSave_SAS_Click);
             // 
             // buttonDone_SAS
             // 

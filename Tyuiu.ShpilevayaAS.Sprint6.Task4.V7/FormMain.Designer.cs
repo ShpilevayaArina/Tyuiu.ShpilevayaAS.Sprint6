@@ -108,7 +108,7 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task4.V7
             this.buttonInfo_SAS.TabIndex = 7;
             this.buttonInfo_SAS.Text = "Справка";
             this.buttonInfo_SAS.UseVisualStyleBackColor = false;
-            this.buttonInfo_SAS.Click += new System.EventHandler(this.buttonInfo_SAS_Click);
+           this.buttonInfo_SAS.Click += new System.EventHandler(this.buttonInfo_SAS_Click);
             // 
             // buttonSave_SAS
             // 
@@ -119,7 +119,7 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task4.V7
             this.buttonSave_SAS.TabIndex = 8;
             this.buttonSave_SAS.Text = "Сохранить";
             this.buttonSave_SAS.UseVisualStyleBackColor = false;
-            this.buttonSave_SAS.Click += new System.EventHandler(this.buttonSave_SAS_Click);
+           this.buttonSave_SAS.Click += new System.EventHandler(this.buttonSave_SAS_Click);
             // 
             // buttonDone_SAS
             // 

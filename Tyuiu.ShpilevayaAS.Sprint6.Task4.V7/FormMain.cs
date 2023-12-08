@@ -20,17 +20,7 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task4.V7
         }
 
         DataService ds = new DataService();
-        //private void buttonDone_SAS_Click(object sender, EventArgs e)
-        //{
-        //}
-
-        //private void buttonInfo_SAS_Click(object sender, EventArgs e)
-        //{ 
-        //}
-
-        //private void buttonSave_SAS_Click(object sender, EventArgs e)
-        //{
-        //}
+       
 
         private void buttonDone_SAS_Click(object sender, EventArgs e)
         {

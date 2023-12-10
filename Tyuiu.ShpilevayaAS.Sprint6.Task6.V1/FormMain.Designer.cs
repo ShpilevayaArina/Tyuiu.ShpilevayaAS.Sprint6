@@ -182,6 +182,7 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task6.V1
             // 
             // buttonDone_SAS
             // 
+            this.buttonDone_SAS.Enabled = false;
             this.buttonDone_SAS.Image = ((System.Drawing.Image)(resources.GetObject("buttonDone_SAS.Image")));
             this.buttonDone_SAS.Location = new System.Drawing.Point(155, 13);
             this.buttonDone_SAS.Name = "buttonDone_SAS";

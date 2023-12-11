@@ -32,9 +32,9 @@ namespace Tyuiu.ShpilevayaAS.Sprint6.Task7.V2.Lib
 
             for (int j = 0; j < rows; j++)
             {
-                if (matrix[2, j] % 2 == 0)
+                if (matrix[1, j] % 2 == 0)
                 { 
-                    matrix[2, j] = 555;
+                    matrix[1, j] = 555;
                 }
             }
             return matrix;
